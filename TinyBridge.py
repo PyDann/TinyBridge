@@ -6,7 +6,7 @@ import time
 import subprocess
 
 #Config Options
-sudo_opt  = True
+sudo_opt  = False
 
 #Terminal Colors
 BLINK = "\33[5m"

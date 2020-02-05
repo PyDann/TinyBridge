@@ -2,10 +2,10 @@
 
 # TinyBridge
 ## A Homebridge CLI Manager
-This project is for quick and easy management of Homebridge installed via the **systemd** method. Providing both interaction through a menu like system or using *options* (ex `HomeBridge.py -s`). 
+This project is for quick and easy management of Homebridge installed via the **systemd** method. Providing both interaction through a menu like system or using *options* (`HomeBridge.py -s`). 
 
 ### *Pre Install READ*
-Depending on your install, updating Homebridge and plugins may require `sudo`, or advanced permissions. This is always important to be aware of and understand. By default TinyBridge does not have this enabled. To change this, open TinyBridge.py and modify `sudo = True`.
+Depending on your install, updating Homebridge and plugins may require `sudo`, or advanced permissions. This is always important to be aware of and understand. By default TinyBridge does not have this enabled. To change this, open TinyBridge.py and modify Line 9: `sudo_opt = True`.
 
 
 ## To Run
@@ -27,7 +27,7 @@ or
 
 **Update Plugins:** `'u', 'update'`
 
-- updates all installed plugins & Homebridge itself
+- updates Homebridge and all installed plugins
 
 **Quit/Exit Menu:** `'q', 'quit'`
 
