@@ -1,3 +1,5 @@
+![Screenshot](https://raw.githubusercontent.com/PyDann/TinyBridge/master/Screenshot.png)
+
 # TinyBridge
 ## A Homebridge CLI Manager
 This project is for quick and easy management of Homebridge installed via the **systemd** method. Providing both interaction through a menu like system or using *options* (ex `HomeBridge.py -s`). 
