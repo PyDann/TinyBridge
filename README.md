@@ -25,9 +25,7 @@ or
 
 **View Log** `'l', 'log'`
 
-**Update Plugins:** `'u', 'update'`
-
-- updates Homebridge and all installed plugins
+**Update Homebridge & Plugins:** `'u', 'update'`
 
 **Quit/Exit Menu:** `'q', 'quit'`
 
