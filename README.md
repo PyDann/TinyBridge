@@ -36,3 +36,10 @@ Depending on your install, updating Homebridge and plugins may require `sudo`, o
 \- Remote control via ssh
 
 \- Manage Homebridge installed under any method
+
+
+## Recent Changes
+
+### 2/21
+
+\- Users can change default editor on line 11

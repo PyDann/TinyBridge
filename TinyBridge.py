@@ -8,6 +8,7 @@ import subprocess
 #################
 ## C O N F I G ##
 use_sudo = False
+editor = "nano"
 #################
 
 class Term_Colors():
@@ -203,7 +204,7 @@ def update():
 	main()
 
 def edit():
-    subprocess.run(["nano", "/var/homebridge/config.json"])
+    subprocess.run([editor, "/var/homebridge/config.json"])
     main()
 
 if __name__ == "__main__":
